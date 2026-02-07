@@ -1,0 +1,5 @@
+requests
+PyYAML
+geoip2
+python-dotenv
+Flask # Potentially for a web interface or API
