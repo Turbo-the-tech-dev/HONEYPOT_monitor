@@ -1,0 +1,41 @@
+# Python-specific ignores
+__pycache__/
+*.pyc
+*.pyo
+.Python
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Virtual environment
+venv/
+env/
+.venv/
+
+# Sensitive data and configuration
+.env
+*.env
+secrets.yaml
+config.json
+
+# Log files
+logs/
+*.log
+# Specific honeypot log file
+ssh_honeypot.log
+
+# Captured data and samples
+malware_samples/
+captured_data/
+honeypot_logs/
+
+# IDE and editor specific files
+.vscode/
+.idea/
+*.swp
+*~
+
+# Operating System files
+.DS_Store
+Thumbs.db
